@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+
+
+    <ImageView
+        android:id="@+id/ivPlantImage"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPlantSortli"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/ivPlantImage" />
+
+    <TextView
+        android:id="@+id/tvPlantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="16dp"
+        android:layout_alignLeft="@+id/tvPlantSortli"
+        android:layout_below="@+id/tvPlantSortli" />
+
+    <ProgressBar
+        android:id="@+id/progressBarList"
+        style="@style/tallerBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/tvPlantName"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:progress="0"
+        android:max="100"
+        android:progressTint="@color/colorBlue"
+        android:layout_toRightOf="@id/ivPlantImage" />
+
+    <ImageView
+        android:id="@+id/ibEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/progressBarList"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:background="@color/colorWhite"
+        app:srcCompat="@drawable/ic_mode_edit_grey_500_24dp" />
+
+    <ImageView
+        android:id="@+id/ibWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ibDelete"
+        android:background="@color/colorWhite"
+        app:srcCompat="@drawable/raindrop"
+        android:onClick="removePlantOnClickHandler"
+        android:layout_margin="8dp"/>
+
+    <ImageView
+        android:id="@+id/ibDelete"
+        android:onClick="removePlantOnClickHandler"
+
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ibEdit"
+        android:background="@color/colorWhite"
+        app:srcCompat="@drawable/ic_delete_forever_grey_500_24dp" />
+
+
+</RelativeLayout>

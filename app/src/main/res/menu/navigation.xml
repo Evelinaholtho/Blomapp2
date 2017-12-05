@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/navigation_flowers"
+        android:icon="@drawable/ic_local_florist_black_48dp"
+        android:title="@string/titlePlant"/>
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_black_36dp"
+        android:title="@string/titleSearch" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person_black_36dp"
+        android:title="@string/titleProfile" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black_36dp"
+        android:title="@string/titelSettings"/>
+
+    </menu>
+
+

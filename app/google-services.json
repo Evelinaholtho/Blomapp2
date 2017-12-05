@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "279547091434",
+    "firebase_url": "https://appproject-b4cda.firebaseio.com",
+    "project_id": "appproject-b4cda",
+    "storage_bucket": "appproject-b4cda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279547091434:android:bf6bfff2b778c59e",
+        "android_client_info": {
+          "package_name": "com.example.evelina.blomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279547091434-r90t5gba8q5ei0kg4mo1ce9oscija3k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7bSwLwKxL4vC7sTA-8bzoJBJ7ejBLBBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

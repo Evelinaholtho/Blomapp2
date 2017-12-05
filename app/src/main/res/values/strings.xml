@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register account</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to login-->
+    <string name="loginFaild">misslyckad inloggning</string>
+    <string name="wrongUserOrPassword">Felaktigt användarnamn eller lösenord</string>
+    <string name="tryAgain">Försök igen</string>
+    <string name="registerLink">Registrera här</string>
+
+    <!--Strings related to RegisterAxtivity -->
+    <string name="missingUsername">anvädarnamnsfältet får inte lämnas tomt</string>
+    <string name="missingName">namnfältet får inte lämnas tomt</string>
+    <string name="missingPassword">lösendordsfältet får inte lämnas tomt</string>
+    <string name="verifyPassword">Bekräfta lösenord</string>
+
+    <!--Strings related to navigation -->
+    <string name="titlePlant">Växter</string>
+    <string name="titelSettings">Inställningar</string>
+    <string name="titleSearch">Sök</string>
+    <string name="titleProfile">Profil</string>
+
+    <!-- Strings related to addPlant -->
+    <string name="plantSort">Vilken sort</string>
+    <string name="plantname">Namn</string>
+    <string name="createPlant">Skapa växt</string>
+    <string name="waterIntervall">Vattningsintervall</string>
+    <string name="room">Rum</string>
+    <string name="daysSinceWater">Dagar sen senaste vattningen</string>
+
+    <!-- Strings related to popup_window -->
+    <string name="profile">Välj profilbild</string>
+    <string name="saveImage">Spara</string>
+
+    <!-- Strings related to Settings -->
+    <string name="notifications">Notiser</string>
+    <string name="changePassword">Ändra lösenord</string>
+    <string name="notificatidonTime">Tid för notis</string>
+    <string name="share">Dela plantor</string>
+    <string name="newPassword">Nytt lösenord</string>
+    <string name="logOut">Logga ut</string>
+
+    <!-- Strings related to Notification -->
+    <string name="notificationTextApp">Blomapp</string>
+    <string name="notitficationText">Dina blommor behöver vatten</string>
+
+
+    <string name="name">Namn</string>
+    <string name="age">Ålder</string>
+    <string name="username">Användarnamn</string>
+    <string name="emailAdress">mailadress</string>
+    <string name="password">Lösenord</string>
+    <string name="register">Skapa konto</string>
+    <string name="login">Logga in</string>
+    <string name="save">Spara uppgifter</string>
+    <string name="action_settings">asctions</string>
+    <string name="take_picture">Take picture</string>
+    <string name="secondary1_body">iririririr</string>
+</resources>
